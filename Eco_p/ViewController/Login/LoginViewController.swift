@@ -58,7 +58,6 @@ class LoginViewController: UIViewController {
                 
             self.navigationController?.pushViewController(tabViewController, animated: true)
         } else {
-            //경고 문구를 띄워야함. 시도해보았으나 실패
             warningMessage()
         }
 

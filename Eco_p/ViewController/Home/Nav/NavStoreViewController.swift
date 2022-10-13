@@ -1,13 +1,13 @@
 //
-//  HomeViewController.swift
+//  NavStoreViewController.swift
 //  Eco_p
 //
-//  Created by 마혁진 on 2022/10/09.
+//  Created by 마혁진 on 2022/10/12.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class NavStoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

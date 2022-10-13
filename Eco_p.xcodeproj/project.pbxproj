@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30BCE7028F59BB600D7AB3E /* FundingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE6F28F59BB600D7AB3E /* FundingViewController.swift */; };
+		A30BCE7228F59BC200D7AB3E /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7128F59BC200D7AB3E /* StoreViewController.swift */; };
+		A30BCE7428F59BCB00D7AB3E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7328F59BCB00D7AB3E /* EventViewController.swift */; };
+		A30BCE7628F6896100D7AB3E /* NavHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7528F6896100D7AB3E /* NavHomeViewController.swift */; };
+		A30BCE7828F6896900D7AB3E /* NavFundingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7728F6896900D7AB3E /* NavFundingViewController.swift */; };
+		A30BCE7A28F6897400D7AB3E /* NavStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7928F6897400D7AB3E /* NavStoreViewController.swift */; };
+		A30BCE7C28F6897B00D7AB3E /* NavEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7B28F6897B00D7AB3E /* NavEventViewController.swift */; };
+		A30BCE8128F694E100D7AB3E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE7F28F694E100D7AB3E /* EventTableViewCell.swift */; };
+		A30BCE8228F694E100D7AB3E /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30BCE8028F694E100D7AB3E /* EventTableViewCell.xib */; };
+		A30BCE8B28F701EB00D7AB3E /* Funding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE8A28F701EB00D7AB3E /* Funding2ViewController.swift */; };
+		A30BCE8D28F701FA00D7AB3E /* Funding3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE8C28F701F900D7AB3E /* Funding3ViewController.swift */; };
+		A30BCE8F28F7020000D7AB3E /* Funding4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE8E28F7020000D7AB3E /* Funding4ViewController.swift */; };
+		A30BCE9128F7020C00D7AB3E /* Store2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9028F7020C00D7AB3E /* Store2ViewController.swift */; };
+		A30BCE9328F7021400D7AB3E /* Store3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9228F7021400D7AB3E /* Store3ViewController.swift */; };
+		A30BCE9528F7021B00D7AB3E /* Store4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9428F7021B00D7AB3E /* Store4ViewController.swift */; };
+		A30BCE9828F7024400D7AB3E /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9728F7024400D7AB3E /* Home2ViewController.swift */; };
+		A30BCE9A28F7024900D7AB3E /* Home3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9928F7024900D7AB3E /* Home3ViewController.swift */; };
+		A30BCE9D28F7117D00D7AB3E /* FundingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCE9B28F7117D00D7AB3E /* FundingTableViewCell.swift */; };
+		A30BCE9E28F7117D00D7AB3E /* FundingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30BCE9C28F7117D00D7AB3E /* FundingTableViewCell.xib */; };
 		A3233E2C28F3044A00738CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E2B28F3044A00738CD8 /* AppDelegate.swift */; };
 		A3233E2E28F3044A00738CD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E2D28F3044A00738CD8 /* SceneDelegate.swift */; };
-		A3233E3028F3044A00738CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E2F28F3044A00738CD8 /* ViewController.swift */; };
+		A3233E3028F3044A00738CD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E2F28F3044A00738CD8 /* LoginViewController.swift */; };
 		A3233E3328F3044A00738CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3233E3128F3044A00738CD8 /* Main.storyboard */; };
 		A3233E3528F3044B00738CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3233E3428F3044B00738CD8 /* Assets.xcassets */; };
 		A3233E3828F3044B00738CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3233E3628F3044B00738CD8 /* LaunchScreen.storyboard */; };
 		A3233E4328F3044B00738CD8 /* Eco_pTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E4228F3044B00738CD8 /* Eco_pTests.swift */; };
 		A3233E4E28F3044B00738CD8 /* Eco_pUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E4D28F3044B00738CD8 /* Eco_pUITests.swift */; };
+		A3233E5C28F3046400738CD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E5B28F3046400738CD8 /* HomeViewController.swift */; };
+		A3233E5E28F3046C00738CD8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E5D28F3046C00738CD8 /* RegisterViewController.swift */; };
+		A3233E6028F3048200738CD8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E5F28F3048200738CD8 /* UIColor+Extension.swift */; };
+		A3233E6D28F3084600738CD8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E6C28F3084600738CD8 /* UserInfo.swift */; };
+		A3233E7028F3087700738CD8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E6F28F3087700738CD8 /* FeedViewController.swift */; };
+		A3233E7228F3087D00738CD8 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E7128F3087D00738CD8 /* LikesViewController.swift */; };
+		A3233E7428F3088800738CD8 /* MyprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E7328F3088800738CD8 /* MyprofileViewController.swift */; };
+		A3233E7F28F5073B00738CD8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3233E7E28F5073B00738CD8 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +62,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30BCE6F28F59BB600D7AB3E /* FundingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundingViewController.swift; sourceTree = "<group>"; };
+		A30BCE7128F59BC200D7AB3E /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		A30BCE7328F59BCB00D7AB3E /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		A30BCE7528F6896100D7AB3E /* NavHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavHomeViewController.swift; sourceTree = "<group>"; };
+		A30BCE7728F6896900D7AB3E /* NavFundingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavFundingViewController.swift; sourceTree = "<group>"; };
+		A30BCE7928F6897400D7AB3E /* NavStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStoreViewController.swift; sourceTree = "<group>"; };
+		A30BCE7B28F6897B00D7AB3E /* NavEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavEventViewController.swift; sourceTree = "<group>"; };
+		A30BCE7F28F694E100D7AB3E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		A30BCE8028F694E100D7AB3E /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		A30BCE8A28F701EB00D7AB3E /* Funding2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funding2ViewController.swift; sourceTree = "<group>"; };
+		A30BCE8C28F701F900D7AB3E /* Funding3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funding3ViewController.swift; sourceTree = "<group>"; };
+		A30BCE8E28F7020000D7AB3E /* Funding4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funding4ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9028F7020C00D7AB3E /* Store2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store2ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9228F7021400D7AB3E /* Store3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store3ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9428F7021B00D7AB3E /* Store4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store4ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9728F7024400D7AB3E /* Home2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9928F7024900D7AB3E /* Home3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3ViewController.swift; sourceTree = "<group>"; };
+		A30BCE9B28F7117D00D7AB3E /* FundingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundingTableViewCell.swift; sourceTree = "<group>"; };
+		A30BCE9C28F7117D00D7AB3E /* FundingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FundingTableViewCell.xib; sourceTree = "<group>"; };
 		A3233E2828F3044A00738CD8 /* Eco_p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eco_p.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3233E2B28F3044A00738CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3233E2D28F3044A00738CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3233E2F28F3044A00738CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3233E2F28F3044A00738CD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A3233E3228F3044A00738CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3233E3428F3044B00738CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3233E3728F3044B00738CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +95,14 @@
 		A3233E4928F3044B00738CD8 /* Eco_pUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eco_pUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3233E4D28F3044B00738CD8 /* Eco_pUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_pUITests.swift; sourceTree = "<group>"; };
 		A3233E4F28F3044B00738CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3233E5B28F3046400738CD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3233E5D28F3046C00738CD8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A3233E5F28F3048200738CD8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A3233E6C28F3084600738CD8 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A3233E6F28F3087700738CD8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A3233E7128F3087D00738CD8 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		A3233E7328F3088800738CD8 /* MyprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyprofileViewController.swift; sourceTree = "<group>"; };
+		A3233E7E28F5073B00738CD8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +130,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30BCE7D28F6897F00D7AB3E /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE7B28F6897B00D7AB3E /* NavEventViewController.swift */,
+				A30BCE7928F6897400D7AB3E /* NavStoreViewController.swift */,
+				A30BCE7728F6896900D7AB3E /* NavFundingViewController.swift */,
+				A30BCE7528F6896100D7AB3E /* NavHomeViewController.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		A30BCE8328F700BF00D7AB3E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE7F28F694E100D7AB3E /* EventTableViewCell.swift */,
+				A30BCE8028F694E100D7AB3E /* EventTableViewCell.xib */,
+				A30BCE7328F59BCB00D7AB3E /* EventViewController.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		A30BCE8428F700D000D7AB3E /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E6F28F3087700738CD8 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A30BCE8528F700DA00D7AB3E /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E7128F3087D00738CD8 /* LikesViewController.swift */,
+			);
+			path = Likes;
+			sourceTree = "<group>";
+		};
+		A30BCE8628F700E400D7AB3E /* Funding */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE6F28F59BB600D7AB3E /* FundingViewController.swift */,
+				A30BCE8A28F701EB00D7AB3E /* Funding2ViewController.swift */,
+				A30BCE8C28F701F900D7AB3E /* Funding3ViewController.swift */,
+				A30BCE8E28F7020000D7AB3E /* Funding4ViewController.swift */,
+				A30BCE9B28F7117D00D7AB3E /* FundingTableViewCell.swift */,
+				A30BCE9C28F7117D00D7AB3E /* FundingTableViewCell.xib */,
+			);
+			path = Funding;
+			sourceTree = "<group>";
+		};
+		A30BCE8728F700EF00D7AB3E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE7128F59BC200D7AB3E /* StoreViewController.swift */,
+				A30BCE9028F7020C00D7AB3E /* Store2ViewController.swift */,
+				A30BCE9228F7021400D7AB3E /* Store3ViewController.swift */,
+				A30BCE9428F7021B00D7AB3E /* Store4ViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A30BCE8828F7013D00D7AB3E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E7328F3088800738CD8 /* MyprofileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A30BCE8928F7014B00D7AB3E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E5D28F3046C00738CD8 /* RegisterViewController.swift */,
+				A3233E2F28F3044A00738CD8 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A30BCE9628F7022F00D7AB3E /* Living */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E5B28F3046400738CD8 /* HomeViewController.swift */,
+				A30BCE9728F7024400D7AB3E /* Home2ViewController.swift */,
+				A30BCE9928F7024900D7AB3E /* Home3ViewController.swift */,
+			);
+			path = Living;
+			sourceTree = "<group>";
+		};
 		A3233E1F28F3044A00738CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +241,9 @@
 		A3233E2A28F3044A00738CD8 /* Eco_p */ = {
 			isa = PBXGroup;
 			children = (
-				A3233E2B28F3044A00738CD8 /* AppDelegate.swift */,
-				A3233E2D28F3044A00738CD8 /* SceneDelegate.swift */,
-				A3233E2F28F3044A00738CD8 /* ViewController.swift */,
-				A3233E3128F3044A00738CD8 /* Main.storyboard */,
-				A3233E3428F3044B00738CD8 /* Assets.xcassets */,
-				A3233E3628F3044B00738CD8 /* LaunchScreen.storyboard */,
+				A3233E6528F304E100738CD8 /* View */,
+				A3233E6428F304D000738CD8 /* Source */,
+				A3233E6328F304AB00738CD8 /* ViewController */,
 				A3233E3928F3044B00738CD8 /* Info.plist */,
 			);
 			path = Eco_p;
@@ -126,6 +265,52 @@
 				A3233E4F28F3044B00738CD8 /* Info.plist */,
 			);
 			path = Eco_pUITests;
+			sourceTree = "<group>";
+		};
+		A3233E6328F304AB00738CD8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE8928F7014B00D7AB3E /* Login */,
+				A30BCE8828F7013D00D7AB3E /* Profile */,
+				A30BCE8528F700DA00D7AB3E /* Likes */,
+				A30BCE8428F700D000D7AB3E /* Feed */,
+				A3233E6E28F3086A00738CD8 /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A3233E6428F304D000738CD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E2B28F3044A00738CD8 /* AppDelegate.swift */,
+				A3233E2D28F3044A00738CD8 /* SceneDelegate.swift */,
+				A3233E5F28F3048200738CD8 /* UIColor+Extension.swift */,
+				A3233E3428F3044B00738CD8 /* Assets.xcassets */,
+				A3233E7E28F5073B00738CD8 /* UIView+Extension.swift */,
+				A3233E6C28F3084600738CD8 /* UserInfo.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A3233E6528F304E100738CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3233E3128F3044A00738CD8 /* Main.storyboard */,
+				A3233E3628F3044B00738CD8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3233E6E28F3086A00738CD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A30BCE9628F7022F00D7AB3E /* Living */,
+				A30BCE8628F700E400D7AB3E /* Funding */,
+				A30BCE8328F700BF00D7AB3E /* Event */,
+				A30BCE8728F700EF00D7AB3E /* Store */,
+				A30BCE7D28F6897F00D7AB3E /* Nav */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +416,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30BCE8228F694E100D7AB3E /* EventTableViewCell.xib in Resources */,
 				A3233E3828F3044B00738CD8 /* LaunchScreen.storyboard in Resources */,
 				A3233E3528F3044B00738CD8 /* Assets.xcassets in Resources */,
 				A3233E3328F3044A00738CD8 /* Main.storyboard in Resources */,
+				A30BCE9E28F7117D00D7AB3E /* FundingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +445,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3233E3028F3044A00738CD8 /* ViewController.swift in Sources */,
+				A3233E7F28F5073B00738CD8 /* UIView+Extension.swift in Sources */,
+				A3233E3028F3044A00738CD8 /* LoginViewController.swift in Sources */,
+				A30BCE9828F7024400D7AB3E /* Home2ViewController.swift in Sources */,
+				A3233E5E28F3046C00738CD8 /* RegisterViewController.swift in Sources */,
+				A3233E7428F3088800738CD8 /* MyprofileViewController.swift in Sources */,
+				A30BCE9128F7020C00D7AB3E /* Store2ViewController.swift in Sources */,
 				A3233E2C28F3044A00738CD8 /* AppDelegate.swift in Sources */,
+				A3233E6028F3048200738CD8 /* UIColor+Extension.swift in Sources */,
+				A30BCE7628F6896100D7AB3E /* NavHomeViewController.swift in Sources */,
+				A30BCE7228F59BC200D7AB3E /* StoreViewController.swift in Sources */,
+				A30BCE7828F6896900D7AB3E /* NavFundingViewController.swift in Sources */,
+				A30BCE9D28F7117D00D7AB3E /* FundingTableViewCell.swift in Sources */,
+				A30BCE7C28F6897B00D7AB3E /* NavEventViewController.swift in Sources */,
 				A3233E2E28F3044A00738CD8 /* SceneDelegate.swift in Sources */,
+				A30BCE8D28F701FA00D7AB3E /* Funding3ViewController.swift in Sources */,
+				A30BCE9528F7021B00D7AB3E /* Store4ViewController.swift in Sources */,
+				A30BCE8128F694E100D7AB3E /* EventTableViewCell.swift in Sources */,
+				A3233E7228F3087D00738CD8 /* LikesViewController.swift in Sources */,
+				A30BCE7428F59BCB00D7AB3E /* EventViewController.swift in Sources */,
+				A30BCE7A28F6897400D7AB3E /* NavStoreViewController.swift in Sources */,
+				A30BCE8B28F701EB00D7AB3E /* Funding2ViewController.swift in Sources */,
+				A30BCE7028F59BB600D7AB3E /* FundingViewController.swift in Sources */,
+				A30BCE9A28F7024900D7AB3E /* Home3ViewController.swift in Sources */,
+				A3233E6D28F3084600738CD8 /* UserInfo.swift in Sources */,
+				A30BCE9328F7021400D7AB3E /* Store3ViewController.swift in Sources */,
+				A3233E7028F3087700738CD8 /* FeedViewController.swift in Sources */,
+				A3233E5C28F3046400738CD8 /* HomeViewController.swift in Sources */,
+				A30BCE8F28F7020000D7AB3E /* Funding4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
